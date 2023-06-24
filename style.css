@@ -1,0 +1,19 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.image-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.slider {
+    margin-top: 80px;
+    width: 500px;
+}
+.img {
+    width: 800px;
+}
